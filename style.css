@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+
 .container {
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
 
 .container .nav-bar {
@@ -36,7 +38,7 @@
 .grid {
     font-size: 1.1rem;
     text-decoration: none;
-    color: rgb(82, 78, 78);
+    color: rgb(100, 93, 93);
     
 }
 

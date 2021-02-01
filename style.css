@@ -1,8 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+
+/* Utility Classes */
+.hd1 {
+    margin-top: 5.5rem;
+    margin-bottom: 2rem;
+    font-size: 5.5rem;
+    letter-spacing: -5px;
+}
+
+.blue {color: rgb(72, 138, 212);}
+.red {color: rgb(206, 58, 58);}
+.orange {color: rgb(250, 178, 43);}
+.green {color: rgb(16, 151, 16);}
 
 
-.container {
-    font-family: Roboto, sans-serif;
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -58,4 +72,44 @@
 .grid:hover {
     color: black;
     text-decoration: none;
+}
+
+/* Header: Showcase */
+header {
+    width: 100vw;
+}
+
+header .header-showcase {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header .header-showcase form {
+    width: 45%;
+}
+
+header .header-showcase form .input {
+    padding: 0.7rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+header .header-showcase form .btn {
+    padding: 0.6rem;
+    margin: 0.4rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    outline: none;
+}
+
+header .header-showcase form .btn:hover {
+    border: 1px solid grey;
 }

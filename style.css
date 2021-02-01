@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
 /* Utility Classes */
 .hd1 {
@@ -16,7 +16,7 @@
 
 /* Body */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
 
@@ -95,10 +95,14 @@ header .header-showcase form {
 header .header-showcase form .input {
     padding: 0.7rem;
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     border: 1px solid grey;
     outline: none;
     margin-bottom: 2rem;
+}
+
+header .header-showcase form .input:hover {
+    box-shadow: 1px 1px 2px 2px rgba(114, 112, 112, 0.3);
 }
 
 header .header-showcase form .btn {
@@ -112,4 +116,17 @@ header .header-showcase form .btn {
 
 header .header-showcase form .btn:hover {
     border: 1px solid grey;
+}
+
+header p {
+    font-size: 12px;
+}
+
+header p a {
+    text-decoration: none;
+    margin: 0.3rem;
+}
+
+header p a:hover {
+    text-decoration: underline;
 }

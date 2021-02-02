@@ -18,6 +18,7 @@
 body {
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .container .nav-bar {
@@ -93,6 +94,7 @@ header .header-showcase form {
 }
 
 header .header-showcase form .input {
+    font-size: 1.3rem;
     padding: 0.7rem;
     width: 100%;
     border-radius: 1.5rem;
@@ -104,6 +106,7 @@ header .header-showcase form .input {
 header .header-showcase form .input:hover {
     box-shadow: 1px 1px 2px 2px #acaeb134;
 }
+
 
 header .header-showcase form .btn {
     background: rgba(128, 128, 128, 0.055);
@@ -184,6 +187,10 @@ footer .footer-link .about ul a:hover {
 
 /* Media Query */
 @media all and (max-width: 900px) {
+    header {
+        margin-bottom: 3rem;
+    }
+
     header .header-showcase form {
         width: 85vw;
     }
@@ -201,4 +208,28 @@ footer .footer-link .about ul a:hover {
         display: flex;
         order: 1;
     }
+}
+
+/* Icons */
+.form-group {
+    position: relative;
+}
+
+.form-group i {
+    position: absolute;
+}
+
+.fa-search {
+    padding: 1rem;
+    min-width: 30px;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+.fa-microphone {
+    padding: 1rem;
+    min-width: 30px;
+    text-align: center;
+    right: 0;
+    color: rgb(47, 154, 197);
 }

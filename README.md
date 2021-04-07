@@ -1,5 +1,7 @@
 # google-homepage
-TheOdinProject: Recreating Google Homepage
+Recreating Google Homepage
+
+page can be viewed on: https://n-endy.github.io/google-homepage/
 
 This is my first project from TheOdinProject.
 Objective was to create a look alike of the google home. I tried to do just that but encountered some problems
